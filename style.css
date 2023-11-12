@@ -1,0 +1,39 @@
+.hidden {
+    visibility: hidden;
+}
+
+.container{
+    display: flex;
+    align-content: space-around;
+    background-color: rgb(201, 245, 245);
+}
+.right{
+    
+    margin-top: 200px ;
+   width: 30%;
+   text-align: center;
+   display: block;
+   
+}
+
+.left{
+    
+    text-align: center;
+    border-right: 5px solid white;
+    width: 70%;
+}
+
+
+.btn{
+    float: left;
+    background-color: green;
+   width: 120px;
+   height: 40px;
+   border-style: none;
+   color: white;
+   border-radius: 10px;
+  
+   font-size: 15px;
+   margin-left: 30px;
+   margin-top: 120px;
+}
